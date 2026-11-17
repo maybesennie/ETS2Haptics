@@ -1,0 +1,20 @@
+<Application x:Class="EuroTruckHaptics.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="#10141B" />
+        <SolidColorBrush x:Key="PanelBrush" Color="#191F29" />
+        <SolidColorBrush x:Key="AccentBrush" Color="#53D6B2" />
+        <SolidColorBrush x:Key="MutedBrush" Color="#8C98A9" />
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#EEF3F8" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#EEF3F8" />
+            <Setter Property="Background" Value="#26313E" />
+            <Setter Property="BorderBrush" Value="#354354" />
+            <Setter Property="Padding" Value="12,7" />
+        </Style>
+    </Application.Resources>
+</Application>
